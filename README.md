@@ -1,4 +1,4 @@
 # ClickSpeedWebsite
-Test the your cps
+Test your cps
 
 The website: [Link](https://newbcrescent.github.io/ClickSpeed/)
