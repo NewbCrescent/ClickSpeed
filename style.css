@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-aspect-ratio: 1.5/1) {
+    body #choosing button {
+        margin-inline: 0.5em;
+    }
+}
+
 html, body {
     height: 100%;
 }
@@ -24,10 +30,14 @@ header h1 {
     padding-bottom: 1.5%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #choosing button {
     margin-inline: 2em;
+    margin-top: 0.25em;
+    border-radius: 8px;
+    padding: 0.25em;
 }
 
 #clicker-container {
@@ -37,10 +47,16 @@ header h1 {
 }
 
 #clicked {
+    margin: 0.5em 0;
     width: 100px;
     height: 100px;
+    border: 1px solid black;
+    border-radius: 1em;
 }
 
 #restart {
     display: none;
+    margin-top: 0.25em;
+    padding: 0.25em;
+    border-radius: 8px;
 }
